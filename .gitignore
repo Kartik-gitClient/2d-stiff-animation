@@ -1,0 +1,53 @@
+# Videos (Strictly ignored)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+*.webm
+
+# Audio
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.flac
+*.ogg
+voice/
+voice_*/
+raw_*
+
+# Rendered Images & Contact Sheets
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.gif
+
+# Archives & Temporary files
+*.zip
+*.tar
+*.gz
+*.7z
+q_temp.png
+temp_*
+tmp_*
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment and sensitive keys
+.env
+*.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
